@@ -3,6 +3,7 @@ import { randomBytes } from "crypto";
 import { config } from "../../lib/config";
 import { scopes } from "../../lib/scopes";
 
+
 export const randomString = () => randomBytes(4).toString("hex");
 
 export default async (req, res) => {
